@@ -1,4 +1,102 @@
+@font-face{
+    font-family: "Annie";
+    src: url("../fonts/Annie_Use_Your_Telescope/AnnieUseYourTelescope-Regular.ttf");
+}
 *{
     margin: 0;
     padding: 0;
+    font-family: "Annie";
+    font-size: x-large;
+}
+/*
+colores{
+    #F3DF7B
+    #73693B
+    #736F5D
+}
+*/
+h1, h2{
+    margin: 10px;
+    text-align: center;
+    color: #F3DF7B;
+}
+h3{
+    margin: 25px 0px;
+    color: #F3DF7B;
+}
+p{
+    text-align: center;
+}
+.body{
+    display: flex;
+    background-color: #F3DF7B;
+}
+.logo{
+    position: relative;
+    border-radius: 10px;
+    margin: 50px 120px 20px 120px;
+    border: 5px solid #73693B;
+    background-color: #73693B;
+}
+.ladoIzq{
+    height: 100%;
+    width: 32%;
+    background-image: url("../img/fondoIzquierdo.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 1%;
+    padding: 1%;
+    border: 5px solid #73693B;
+    color: #F3DF7B;
+    border-radius: 10px;
+}
+.ladoDer{
+    height: 100%;
+    width: 64%;
+    background-image: url("../img/fondoderecho.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 1%;
+    padding: 1%;
+    border: 5px solid #73693B;
+    color: #F3DF7B;
+    border-radius: 10px;
+}
+.icono{
+    height: 50px;
+    width: 50px;
+    padding: 5px;
+    background-color: #F3DF7B;;
+    border: 2px solid #73693B;
+    border-radius: 10px;
+}
+.contenedor_habilidades{
+    display: flex;
+    justify-content: space-around;
+}
+.cuadro{
+    height: 200px;
+    width: 200px;
+    align-items: center;
+}
+.logo{
+    height: 160px;
+    width: 160px;
+    padding: 5px;
+    border: 2px solid #73693B;
+    background-color: #F3DF7B;
+    border-radius: 10px;
+}
+.logo_p{
+    height: 40px;
+    width: 40px;
+    padding: 2px;
+    margin-top: 15px;
+    border: 2px solid #73693B;
+    border-radius: 10px;
+}
+.contenedor_marcas{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
 }
